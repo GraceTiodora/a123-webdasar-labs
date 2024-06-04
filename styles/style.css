@@ -1,6 +1,7 @@
 body{
-    font-family: sans-serif;
-    background-color: blueviolet;
+    font-family: 'Reddit Mono',sans-serif;
+    background-color: pink;
+    
 }
 
 h2{
@@ -8,10 +9,52 @@ h2{
 }
 p{
     color: black;
+      border: 4px solid #00a2c6;
+      width: 350px;
+       ma.box {
+        width: 200px;
+        height: 200px;
+        background-color: #f0f0f0;
+        margin: 50px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); /* Horizontal offset, vertical offset, blur radius, color */
+    }
+    rgin : 10px 15px 20px 25px;
 }
 footer {
     padding: 20px;
     color: white;
     background-color: #00a2c6;
+    text-align : center ;
+  }
+  nav a {
+    font-weight: 400;
+    font-size:18px;
+    text-decoration: none;
+  }
+  nav a:hover{
+    font-weight: bold;
+  }
+  .profile header{
+    text-align : center;
+  }
+  .box {
+    width: 50%;
+    border: 4px magenta;
+    padding: 20 px;
+    margin-bottom : 20px;
+
+  }
+  .box.center{
+    margin: 0 auto ;
   }
   
+  .scroll-container {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000;
+    overflow: scroll;
+  }  
+.content {
+    height: 100px; /* Adjust the height to ensure it does not overflow */
+    padding: 10px;
+}
